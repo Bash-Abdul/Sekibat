@@ -38,6 +38,9 @@
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 />
 
+<!-- SPLIDE JS -->
+<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
 <!-- BOXICONS -->
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -127,25 +130,26 @@
 
         <div class="main section" id="main">
 
-          <div class="swiper main_slider">            
+        <div class="splide">
+          <div class="splide__track main_slider">            
 
-            <div class="swiper-wrapper wrapper">
+            <div class="splide__list wrapper">
 
-              <div class="swiper-slide main_box" style="background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/Hands.jpg) no-repeat;">
+              <div class="splide__slide main_box" data-splide-interval="4500" style="background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/Hands.jpg) no-repeat;">
                 <div class="main_content">
                   <!-- <h3>Consultancy Services</h3> -->
                   <h3>Contracting, Logistics & Supplies</h3>
                 </div>
               </div>
 
-              <div class="swiper-slide main_box" style="background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/IMG-20231002-WA0040.jpg) no-repeat;">
+              <div class="splide__slide main_box" data-splide-interval="4500" style="background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/IMG-20231002-WA0040.jpg) no-repeat;">
                 <div class="main_content">
                   <!-- <h3>Residential Houses Construction and Real Estate development</h3> -->
                   <h3>Housing, Real Estates & Infrastructural Dev</h3>
                 </div>
               </div>
 
-              <div class="swiper-slide main_box" style="background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/IMG-20231002-WA0039.jpg) no-repeat;">
+              <div class="splide__slide main_box" data-splide-interval="4500" style="background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/IMG-20231002-WA0039.jpg) no-repeat;">
                 <div class="main_content">
                   <!-- <h3>Auctioneer, Trading, Franchise, Logistics, Distribution & Corporate Haulage.</h3> -->
                   <!-- <h3>Lorem ipsum dolor sit amet consectetur.</h3> -->
@@ -154,13 +158,48 @@
 
             </div>
 
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
 
             <!-- <div class="button-next"><i class='bx bx-chevron-right'></i></div>
             <div class="button-prev"><i class='bx bx-chevron-left'></i></div> -->
 
           </div>
+        </div>
+
+
+           <!-- <div class="swiper main_slider">            
+
+            <div class="swiper-wrapper wrapper">
+
+              <div class="swiper-slide main_box" style="background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/Hands.jpg) no-repeat;">
+                <div class="main_content">
+                  <h3>Consultancy Services</h3>
+                  <h3>Contracting, Logistics & Supplies</h3>
+                </div>
+              </div>
+
+              <div class="swiper-slide main_box" style="background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/IMG-20231002-WA0040.jpg) no-repeat;">
+                <div class="main_content">
+                  <h3>Residential Houses Construction and Real Estate development</h3> 
+                  <h3>Housing, Real Estates & Infrastructural Dev</h3>
+                </div>
+              </div>
+
+              <div class="swiper-slide main_box" style="background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Images/IMG-20231002-WA0039.jpg) no-repeat;">
+                <div class="main_content">
+                  <h3>Auctioneer, Trading, Franchise, Logistics, Distribution & Corporate Haulage.</h3> 
+                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+          </div>  -->
 
         </div>
 
@@ -229,7 +268,7 @@
       <div class="about_container ">
         <div class="about section" id="about">
           <div class="about_image">
-            <img src="Images/Hands.jpg" alt="">
+            <img src="Images/meetings.jpg" alt="about image">
           </div>
 
           <div class="about_content">
@@ -256,7 +295,7 @@
             <h3>Contact Info</h3>
             <p>Location: <span>320, Odusami Street, Ogba</span></p>
             <p>Phone: <span>08125776821</span></p>
-            <p>Email: <span> infor@sekibat.com</span></p>
+            <p>Email: <span> info@sekibat.com</span></p>
           </div>
 
           <div class="contact_map">
@@ -288,6 +327,11 @@
 
       <!-- swiper js -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+       <!-- SPLIDEJS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script src="js/splide.js"></script>
 
      <!-- SCROLL REVEAL -->
      <script src="https://unpkg.com/scrollreveal"></script>
