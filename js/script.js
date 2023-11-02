@@ -33,7 +33,7 @@ window.onscroll = () =>{
 
   if (window.scrollY > 20){
     navlink.classList.remove('active');
-    navContainer.style.backgroundColor = 'black';
+    // navContainer.style.backgroundColor = 'black';
     menu.classList.remove('bx-x');
   }
 
