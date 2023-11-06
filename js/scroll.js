@@ -12,8 +12,9 @@ ScrollReveal({
 
 // ScrollReveal().reveal('.service_box', '.about_image','.contact_content', { origin: 'left' });
 ScrollReveal().reveal('.service_box',{ origin: 'left' });
-ScrollReveal().reveal('.contact_content', { origin: 'left' });
-ScrollReveal().reveal('.contact_map', { origin: 'right' });
+ScrollReveal().reveal('.contact_content', { origin: 'right' });
+ScrollReveal().reveal('.contact_map', { origin: 'left' });
+ScrollReveal().reveal('.inputs', { origin: 'left' });
 ScrollReveal().reveal('.about', { origin: 'right' });
 
 // ScrollReveal().reveal('.about','.contact_map', { origin: 'right' });

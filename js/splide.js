@@ -3,6 +3,7 @@ var splide = new Splide( '.splide', {
 //   drag: 'free',
   snap: true,
   autoplay: true,
+  pagination: false,
   effect:'fade',
   autoplay: {
     delay:5000,
